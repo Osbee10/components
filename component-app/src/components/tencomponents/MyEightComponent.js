@@ -1,10 +1,6 @@
-
 function MyEightComponent(){
-
-
     return(
-        2*4
+        <h1 id='mycomp'>MyEightComponent</h1>
     );
 }
-
-export default MyEightComponent;
+export default MyEightComponent

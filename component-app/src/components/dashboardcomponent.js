@@ -6,7 +6,7 @@ function DashboardComponent(props){
            <h1>Email {props.email}</h1>
            <h1>Date of birth: {props.dateofbirth}</h1>
            <h1>Mobile: {props.mobile}</h1>
-
+           {/* you can use props={props} through out */}
         </div>
     );
 }

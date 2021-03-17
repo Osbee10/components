@@ -1,13 +1,6 @@
-
 function MyTenthComponent(){
-
-
     return(
-        <div>
-            <h1>MyTenthComponent</h1>
-            <h2>Helloooo</h2>
-        </div>
+        <h1 id='mycomp'>MyTenthComponent</h1>
     );
 }
-
-export default MyTenthComponent;
+export default MyTenthComponent

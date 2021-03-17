@@ -1,6 +1,11 @@
-function MyTenthComponent(){
-    return(
-        <h1 id='mycomp'>MyTenthComponent</h1>
+
+function MyTenthComponent() {
+    return (
+      <h1>
+     MyTenthComponent
+      </h1>
+      
     );
-}
-export default MyTenthComponent
+  }
+  
+  export default MyTenthComponent;

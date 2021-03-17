@@ -1,6 +1,11 @@
-function MyNinthComponent(){
-    return(
-        <h1 id='mycomp'>MyNinthComponent</h1>
+
+function MyNinthComponent() {
+    return (
+      <h1>
+     MyNinthComponent
+      </h1>
+      
     );
-}
-export default MyNinthComponent
+  }
+  
+  export default MyNinthComponent;

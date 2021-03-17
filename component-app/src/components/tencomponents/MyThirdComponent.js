@@ -1,10 +1,6 @@
-
 function MyThirdComponent(){
-
-
-    return(
-        <h3>MyThirdComponent</h3>
+    return (
+        <h1 id='mycomp'>MyThirdComponent</h1>
     );
 }
-
-export default MyThirdComponent;
+export default MyThirdComponent

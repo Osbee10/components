@@ -7,73 +7,40 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-button{
-  padding: 10px 20px;
-  margin: 5px;
-  border: none;
-  color: #fff;
-  font-weight: 700;
-  cursor: pointer;
-  border-radius: 5px;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
-
-nav {
-  padding: 10px 30px;
-  color: #fff;
-  font-weight: 800;
+.btn { 
+  display: flex;
+  padding: 5px;
 }
-
-inputfield{
-  padding: 10px 35px;
-  color: #fff;
-  font-weight: 450;
-  margin: 5px;
-  font-weight: 500;
-  border-radius: 6px;
-  border: none;
+button { margin: 5px; 
+border: none;
+box-shadow: none;
+padding: 3px 10px;
+border-radius: 15px;
+color: rgb(31, 14, 107);
 }
-
-radiobutton{
-  padding: 10px 20px;
-  margin: 6px;
-  border: none;
-  color: #fff;
-  font-weight: 500;
-  cursor: pointer;
-  border-radius: 5px;
-  
+.in {
+  padding: 10px;
 }
-
-checkbox{
-  padding: 10px 20px;
-  margin: 5px;
-  color: white
-
-
+.rad {
+  padding: 10px;
 }
-
-typography{
-  padding: 10px 30px;
-  color: #fff;
-  font-weight: 800;
+.nav {
+padding: 20px;
+background-color: rgb(240, 94, 69);
 }
-
-
-textarea{
-  padding: 10px 35px;
-  color: #fff;
-  font-weight: 450;
-  margin: 5px;
-  font-weight: 500;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: oblique;
-  border-radius: 6px;
-  border: none;
-
+#iga {
+  font-weight: 800px;
+  color: aliceblue;
 }
-
-selectoption{
-  padding: 10px 20px;
-  margin: 5px;
-  color: white
+.home { 
+}
+.drop {
+  padding: 10px;
+}
+.area {
+  padding: 10px;
 }

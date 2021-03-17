@@ -8,6 +8,7 @@ function DetailComponent(props){
         email={props.email}
         dateofbirth={props.dateofbirth}
         mobile={props.mobile}
+         //you can use props={props} through out
          />
     )
 

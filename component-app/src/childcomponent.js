@@ -1,12 +1,12 @@
-function ChildComponent(props){
-    return(
-        <div>
-           <h1>Child Component</h1> 
-           <h1>Name: {props.name}</h1>
-           <h2>Gender:{props.gender}</h2>
-           <h2>Age: {props.age}</h2>
-           <h2>Email {props.email}</h2>
-        </div>
-    )
-}
-export default ChildComponent
+// import Childcomponent from './Mypropscomponent'
+
+// funtion Childcomponent(props) {
+//     return(
+//         <h1>name:{props.Cname}</h1>
+//         <h1>age:{props.Cage}</h1>
+//         <h1>gender:{props.Cgender}</h1>
+//         <h1>email:{props.Cgender}</h1>
+
+//     );
+// }
+// export default Childcomponent;

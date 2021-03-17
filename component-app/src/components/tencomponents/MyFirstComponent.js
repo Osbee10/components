@@ -1,10 +1,6 @@
-
 function MyFirstComponent(){
-
-
-    return(
-        <h1>MyFirstComponent</h1>
-    );
+    return (
+        <h1 id='mycomp'>MyFirstComponent</h1>
+      );
 }
-
-export default MyFirstComponent;
+export default MyFirstComponent

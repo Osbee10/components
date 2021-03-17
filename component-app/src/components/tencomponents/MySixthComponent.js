@@ -1,10 +1,6 @@
-
 function MySixthComponent(){
-
-
     return(
-        <h6>MySixthComponent</h6>
-    );
+        <h1 id='mycomp'>MySixthComponent</h1>
+    )
 }
-
-export default MySixthComponent;
+export default MySixthComponent

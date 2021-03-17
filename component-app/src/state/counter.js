@@ -1,58 +1,44 @@
+
 import React, { useState } from 'react';
 
+function Counter() {
+    const [count, setCount] = useState(0)
 
+    function sum(){
+        setCount(count+1)
+    }
 
-function Counter(){
+    function subtract(){
+        setCount(count-1)
+    }
+    
+    function multiply(){
+        setCount(count*2)
+    }
 
+    function division(){
+        setCount(count/2)
+    }
 
-   
-    const [count, setCount] = useState(2)
-    // const [color, setCount] = useState("yellow")
-    // const [username, setUsername] = useState(0)
-    // const [password, setPassword] = useState()
-
-
-    // function sum(){
-    //     setCount(count+1)
-    //     // setCount(color == "red" ? 'yellow' : 'red')
-    // }
-
-    // function subtract(){
-    //     setCount(count-1)
-    // }
-
-    // function multiply(){
-    //     setCount(count*1)
-    // }
-
-    // function division(){
-    //     setCount(count/1)
-    // }
-
-    function square(){
+    function surds(){
         setCount(Math.sqrt(count))
     }
 
-
-    
-
-    return (
+    return(
         <div>
-        <h1>Counter</h1>
-        { count }
+            
 
+            <h1>Counter</h1>
+            <h1>Username</h1>
+            {count}
+            <button onClick={sum}>Increase</button>
+            <button onClick={subtract}>Deduce</button>
+            <button onClick={multiply}>Multiply</button>
+            <button onClick={division}>Divide</button>
+            <button onClick={surds}>Square</button>
 
-         {/* if you want to change a state  */}
-        {/* <button onClick={ () => setCount (count+1)}>Change State Variable</button> */}
-        {/* <button style={{background: color}} onClick={ sum }>Add</button> */}
-        {/* <button onClick={ sum }>Add</button>
-        <button onClick={ subtract }>Subtract</button>
-        <button onClick={ multiply }>Multiply</button>
-        <button onClick={ division }>Deduce</button> */}
-        <button onClick={ square }>Square</button>
 
         </div>
-    ) 
+    )
 }
-
 export default Counter;

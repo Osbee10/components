@@ -1,11 +1,15 @@
-import ChildComponent from './childcomponent'
+// import Childcomponent from './childcomponent'
 
-function ParentComponent(props){
-    return(
-        <div>
-           <h1>Parent Component</h1>            
-           <ChildComponent name={props.name} gender={props.gender} age={props.age} email={props.email}/>
-        </div> //instead of div you can use empty tags <> & </>
-    )
-}
-export default ParentComponent
+// function Parentcomponent(props){
+
+//     return(
+//         <div>
+//             <Childcomponent/>
+//             {props.Pname}
+//             {props.Page}
+//             {props.Pgender}
+//             {props.Pemail}
+//         </div>
+//     )
+// }
+// export default Parentcomponent;

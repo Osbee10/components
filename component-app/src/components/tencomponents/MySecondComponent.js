@@ -1,10 +1,6 @@
-
 function MySecondComponent(){
-
-
     return(
-        <h2>MySecondComponent</h2>
+        <h1 >MySecondComponent</h1>
     );
 }
-
-export default MySecondComponent;
+export default MySecondComponent 

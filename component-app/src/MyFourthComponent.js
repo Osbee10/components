@@ -1,6 +1,11 @@
-function MyFourthComponent(){
-    return(
-    <h1 id='mycomp'>MyFourthComponent</h1>
+
+function MyFourthComponent() {
+    return (
+      <h1>
+     MyFourthComponent
+      </h1>
+      
     );
-}
-export default MyFourthComponent
+  }
+  
+  export default MyFourthComponent;
